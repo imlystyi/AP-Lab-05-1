@@ -10,7 +10,7 @@ namespace AP_Lab_05_1
 {
     public class Lab_05_1
     {
-        static double F(double a) => (Pow(a, 2) + 1) / (Pow(Sin(a), 2) + 1);
+        public static double F(double a) => (Pow(a, 2) + 1) / (Pow(Sin(a), 2) + 1);
 
         static void Main()
         {

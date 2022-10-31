@@ -1,14 +1,17 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
+using AP_Lab_05_1;
 
 namespace AP_Lab_05_1_UT
 {
     [TestClass]
-    public class UnitTest1
+    public class Lab_05_1_UT
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestF()
         {
+            double n = Lab_05_1.F(0);
+
+            Assert.AreEqual(n, 1);
         }
     }
 }
