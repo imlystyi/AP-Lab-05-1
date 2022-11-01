@@ -1,4 +1,7 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿// Lab_05_1_UT.cs
+// Якубовський Владислав
+// Unit-тест до програми Lab_05_1
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using AP_Lab_05_1;
 
 namespace AP_Lab_05_1_UT
