@@ -14,7 +14,7 @@ namespace AP_Lab_05_1_UT
         {
             double n = Lab_05_1.F(0);
 
-            Assert.AreEqual(n, 1);
+            Assert.AreEqual(1, n);
         }
     }
 }
